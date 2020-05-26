@@ -740,7 +740,7 @@ Internet-Draft            Provisioning Domains              January 2020
    header field in responses.
 
    Note that the DNS name resolution of the PvD ID, any connections made
-   for certficate validation (such as OCSP [RFC6960]), and the HTTP
+   for certificate validation (such as OCSP [RFC6960]), and the HTTP
    request itself MUST be performed using the considered PvD.  In other
    words, the name resolution, PKI checks, source address selection, as
    well as the next-hop router selection MUST be performed while using
@@ -857,7 +857,7 @@ Internet-Draft            Provisioning Domains              January 2020
    Whenever the H-flag is set in the PvD Option, a valid PvD Additional
    Information object MUST be made available to all hosts receiving the
    RA by the network operator.  In particular, when a captive portal is
-   present, hosts MUST still be allowed to perform DNS, certficate
+   present, hosts MUST still be allowed to perform DNS, certificate
    validation, and HTTP over TLS operations related to the retrieval of
    the object, even before logging into the captive portal.
 
